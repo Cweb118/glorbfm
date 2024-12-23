@@ -11,8 +11,8 @@ bot = commands.Bot()
 async def on_ready():
     print(f'We have logged in as {bot.user}')
 
-@bot.slash_command(description="My first slash command", guild_ids=[TESTING_GUILD_ID])
-async def hello(interaction: nextcord.Interaction):
-    await interaction.send("Hello!")
+@bot.slash_command(description="bing", guild_ids=[TESTING_GUILD_ID])
+async def bing(interaction: nextcord.Interaction):
+    await interaction.send("bong !")
 
 bot.run(gfm_token)
