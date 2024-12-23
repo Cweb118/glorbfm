@@ -1,0 +1,7 @@
+theJar = {
+    'players':{},
+    'items':{},
+    'bingus':{},
+
+
+}
